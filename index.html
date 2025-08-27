@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cot Asia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="relative text-white">
+    <!-- Navbar -->
+    <section class="relative w-full h-screen overflow-hidden">
+      <header
+        class="hidden lg:block text-gray-600 body-font px-4 md:px-12 lg:px-20 xl:px-32 absolute top-0 z-20 w-full"
+      >
+        <div
+          class="container mx-auto flex flex-wrap p-5 flex-col lg:flex-row items-center"
+        >
+          <a
+            href="/"
+            class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          >
+            <img src="/assets/logo.png" alt="" width="100" />
+          </a>
+          <nav
+            class="md:ml-auto flex flex-wrap items-center text-base justify-center gap-4 lg:gap-6 xl:gap-12"
+          >
+            <a
+              href="/"
+              class="font-bold text-pink-700 p-2 pl-0 border-b-2 border-pink-700"
+              >Home</a
+            >
+            <a
+              href="/about.html"
+              class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+              >About</a
+            >
+            <a
+              href="/business.html"
+              class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+              >For Business</a
+            >
+            <a
+              href="/investors.html"
+              class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+              >For Investors</a
+            >
+            <a
+              href="/contact.html"
+              class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+              >Contact</a
+            >
+          </nav>
+          <button id="loginBtn"
+            class="px-6 hidden lg:block py-3 ml-4 lg:ml-6 xl:ml-12 font-bold text-white rounded-lg bg-gradient-to-r from-pink-700 to-pink-400 hover:from-pink-900 hover:to-pink-600 shadow-lg transition-all duration-300"
+          >
+            Demo
+          </button>
+        </div>
+      </header>
+      <button id="menuBtn" class="block lg:hidden">
+        <img
+          src="/assets/images/icons/menu.svg"
+          class="rotate-90 invert absolute top-4 left-4 z-[1001]"
+          width="30"
+          alt=""
+        />
+      </button>
+      <nav
+        id="navbar"
+        class="lg:hidden transition-all flex justify-between flex-col py-8 duration-200 fixed -translate-x-full top-0 h-screen bg-black/50 w-72 z-[1000]"
+      >
+        <a
+          href="/"
+          class="flex title-font font-medium mx-auto w-max mt-24 items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <img src="/assets/logo.png" alt="" width="100" />
+        </a>
+        <nav class="text-base">
+          <ul class="p-8 space-y-8">
+            <li>
+              <a
+                href="/"
+                class="font-bold text-pink-700 p-2 pl-0 border-b-2 border-pink-700 text"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="/about.html"
+                class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="/business.html"
+                class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+                >For Business</a
+              >
+            </li>
+            <li>
+              <a
+                href="/investors.html"
+                class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+                >For Investors</a
+              >
+            </li>
+            <li>
+              <a
+                href="/contact.html"
+                class="font-bold text-white p-2 pl-0 border-b-2 border-transparent hover:border-pink-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <button id="loginBtn"
+          class="px-6 py-3 ml-4 lg:ml-6 xl:ml-12 font-bold text-white rounded-lg bg-gradient-to-r from-pink-700 to-pink-400 hover:from-pink-900 hover:to-pink-600 shadow-lg transition-all duration-300 w-max"
+        >
+          Demo
+        </button>
+      </nav>
+      <!-- Hero Section -->
+      <!-- Background Video -->
+      <!-- Background Video -->
+      <video
+        class="absolute top-0 left-0 w-full h-full object-cover"
+        autoplay
+        muted
+        loop
+      >
+        <source src="/assets/images/vid-1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Overlay Content -->
+      <div
+        class="relative z-10 flex flex-col items-center justify-center h-full"
+      >
+        <img src="/assets/images/title-1.png" alt="" class="w-3/4 sm:w-1/2" />
+        <!-- <img src="/assets/images/title-2.png" alt=""> -->
+        <p
+          class="mt-4 text-lg text-white text-center font-bold lg:w-2/5 md:w-2/3 w-2/3"
+        >
+          From rare watches to prestigious real estate, COT Asia brings timeless
+          investments to a modern, tokenized world.
+        </p>
+        <button
+          class="md:px-6 md:py-3 py-2 px-4 font-bold text-white rounded-lg bg-gradient-to-r from-pink-700 to-pink-400 hover:from-pink-900 text-sm mt-4 md:text-base hover:to-pink-600 shadow-lg transition-all duration-300"
+        >
+          <a href="/about.html"> Explore More </a>
+        </button>
+      </div>
+    </section>
+    <!-- Features Section -->
+    <section class="relative">
+      <img
+        src="/assets/images/1.svg"
+        class="absolute -top-32 z-11 -left-24 md:w-[250px] w-[150px] lg:w-[350px]"
+        alt=""
+      />
+      <div class="container mx-auto py-12 px-6">
+        <h2
+          class="text-2xl md:text-3xl lg:text-5xl xl:text-5xl font-bold text-center mb-8"
+        >
+          Why Choose <span class="text-pink-700">COT Asia</span>?
+        </h2>
+        <p
+          class="mt-4 text-md lg:text-lg mx-auto text-gray-400 font-bold w-4/5 text-center relative z-20"
+        >
+          Anchored by a commitment to transparency and security, COT Asia
+          bridges the gap between tradition and the future. Leveraging the power
+          of blockchain, we transform luxury goods into accessible investments,
+          inviting high-net-worth individuals to explore a realm where passion
+          meets profit. Together, we are unlocking the full potential of the
+          luxury market – one token at a time.
+        </p>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12 gap-12 lg:w-4/5 w-full mx-auto"
+        >
+          <div class="col-span-1">
+            <h2 class="text-2xl mg:text-3xl text-center text-pink-700 mb-8">
+              Real World Asset Backing
+            </h2>
+            <div
+              class="border-2 bg-[#141139] border-pink-700 p-8 text-center rounded-3xl font-bold"
+            >
+              Stability meets innovation.
+            </div>
+          </div>
+          <div class="col-span-1">
+            <h2 class="text-2xl mg:text-3xl text-center text-pink-700 mb-8">
+              Exclusivity Meets Accessibility
+            </h2>
+            <div
+              class="border-2 bg-[#141139] border-pink-700 p-8 text-center rounded-3xl font-bold"
+            >
+              Premium assets tokenized for all.
+            </div>
+          </div>
+          <div class="col-span-1">
+            <h2 class="text-2xl mg:text-3xl text-center text-pink-700 mb-8">
+              Real World Asset Backing
+            </h2>
+            <div
+              class="border-2 bg-[#141139] border-pink-700 p-6 text-center rounded-3xl font-bold"
+            >
+              Full digital ownership for a modern economy.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full h-screen overflow-hidden py-96 mt-32">
+      <img
+        src="/assets/images/circle-2.png"
+        class="absolute right-96 -top-4 z-50"
+        alt=""
+      />
+      <img
+        src="/assets/images/circle-1.png"
+        class="absolute -right-44 -top-4 z-50"
+        alt=""
+      />
+      <video
+        class="absolute top-0 md:block hidden left-0 w-full h-full object-cover"
+        autoplay
+        muted
+        loop
+      >
+        <source src="/assets/images/vid-2.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <!-- Overlay Content -->
+      <div
+        class="relative z-10 h-full flex items-center flex-col justify-center text-center"
+      >
+        <h2 class="text-5xl mt-40 mb-8">
+          How it <span class="text-pink-700">Works</span>
+        </h2>
+        <div class="flex items-center">
+          <div class="w-1/3 hidden md:block"></div>
+          <div class="w-full md:w-2/3 ml-0 md:ml-32 flex flex-wrap">
+            <div class="ml-0 md:ml-4 lg:ml-8 xl:ml-16">
+              <img
+                src="/assets/images/works-1.png"
+                class="md:w-[500px] w-[400px]"
+                alt=""
+              />
+            </div>
+            <div class="ml-0 md:ml-40 lg:ml-60 xl:ml-96">
+              <img
+                src="/assets/images/works-2.png"
+                class="md:!w-[720px] lg:w-[560px] xl:w-[500px] w-[400px]"
+                alt=""
+              />
+            </div>
+            <div class="ml-0 md:ml-16 lg:ml-32 xl:ml-52">
+              <img
+                src="/assets/images/works-3.png"
+                class="md:w-[500px] w-[400px]"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+        <!-- <img src="/assets/images/title-2.png" alt=""> -->
+      </div>
+    </section>
+    <section class="py-32 my-16 w-full md:w-4/5 mx-auto">
+      <div
+        class="relative mx-4 justify-center gradient-box p-12 rounded-[35px]"
+      >
+        <div class="w-full md:w-3/4 lg:w-2/3 xl:w-1/2">
+          <h2 class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
+            Let's Elevate Your Investment Journey.
+          </h2>
+          <p class="my-2">
+            Whether you're a seasoned investor or new tokenization, we're here
+            to guide you through this exciting new frontier.
+          </p>
+          <button
+            class="px-6 py-3 mt-8 rounded-lg bg-gradient-to-r from-yellow-500 to-yellow-300 hover:from-yellow-400 hover:to-yellow-500 shadow-lg transition-all duration-300 w-max text-black/70 font-extrabold cursor-pointer"
+          >
+            <a href="/contact.html"> Contact Our Team </a>
+          </button>
+        </div>
+        <img
+          src="/assets/images/start-icon.png"
+          class="hidden md:block w-1/2 absolute -bottom-16 right-0"
+          alt=""
+        />
+        <img
+          src="/assets/images/start-y.png"
+          class="xl:w-52 md:w-32 w-24 left-0 -bottom-20 md:-bottom-24 md:-left-12 absolute xl:-bottom-40 xl:-left-24"
+          alt=""
+        />
+        <img
+          src="/assets/images/start-x.png"
+          class="w-16 md:w-24 -bottom-12 left-28 md:left-20 md:-bottom-16 xl:w-32 absolute xl:-bottom-20 xl:left-44"
+          alt=""
+        />
+      </div>
+    </section>
+    <footer class="bg-[#222d58] body-font px-8 md:px-32">
+      <div
+        class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col"
+      >
+        <div
+          class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left"
+        >
+          <a
+            href="/"
+            class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+          >
+            <img src="/assets/logo.png" width="220" alt="" />
+          </a>
+          <div class="mt-12">
+            <div class="flex gap-4">
+              <a target="_blank" href="https://x.com/COTRWAA"
+                ><img src="assets/images/icons/twitter.svg" class="invert"
+              /></a>
+              <a target="_blank" href="https://t.me/+r_3Vkn8YeCZjOWNl"
+                ><img src="assets/images/icons/send.svg" class="invert"
+              /></a>
+            </div>
+            <p class="text-gray-400">&copy; 2024 COT. All Rights Reserved</p>
+          </div>
+        </div>
+        <div
+          class="flex-grow flex flex-wrap md:pl-10 -mb-10 md:mt-0 mt-10 md:text-left text-center"
+        >
+          <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+            <h3
+              class="title-font font-bold text-pink-700 tracking-widest text-sm mb-3"
+            >
+              Home
+            </h3>
+            <nav class="list-none mb-10">
+              <li>
+                <a target="_blank" href="http://cot.asia/investors.html" class="text-gray-400 font-bold">For Investors</a>
+              </li>
+            </nav>
+          </div>
+
+          <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+            <h3
+              class="title-font font-bold text-pink-700 tracking-widest text-sm mb-3"
+            >
+              About
+            </h3>
+            <nav class="list-none mb-10">
+              <li>
+                <a target="_blank" href="http://cot.asia/about.html" class="text-gray-400 font-bold">The Project</a>
+              </li>
+              <li>
+                <a target="_blank" href="http://cot.asia/about.html" class="text-gray-400 font-bold">Strategic Partners</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+            <h3
+              class="title-font font-bold text-pink-700 tracking-widest text-sm mb-3"
+            >
+              For Business
+            </h3>
+            <nav class="list-none mb-10">
+              <li>
+                <a target="_blank" href="http://cot.asia/business.html" class="text-gray-400 font-bold">Why Tokenize</a>
+              </li>
+              <li>
+                <a target="_blank" href="http://cot.asia/business.html" class="text-gray-400 font-bold">The ecosystem</a>
+              </li>
+            </nav>
+          </div>
+          <div class="lg:w-1/5 md:w-1/3 w-full px-4">
+            <h3
+              class="title-font font-bold text-pink-700 tracking-widest text-sm mb-3"
+            >
+              Legal
+            </h3>
+            <nav class="list-none mb-10">
+              <li>
+                <a target="_blank" href="https://nr9mx8metr.larksuite.com/docx/DrIfdoEwMoMG50x9mJ4uEuzWsgz?from=from_copylink" class="text-gray-400 font-bold">Terms of Use</a>
+              </li>
+              <li>
+                <a target="_blank" href="https://nr9mx8metr.larksuite.com/docx/E6XHdkwlhoHKWNx60PPuG3Fiszh?from=from_copylink" class="text-gray-400 font-bold">
+                  Privacy Policy
+                </a>
+              </li>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script>
+    const navBar = document.getElementById("navbar");
+    const menuBtn = document.getElementById("menuBtn");
+    const loginBtn = document.getElementById("loginBtn");
+    const img = menuBtn.querySelector("img");
+
+    menuBtn.addEventListener("click", () => {
+      if (navBar.classList.contains("left-0")) {
+        navBar.classList.remove("left-0");
+        navBar.classList.add("-translate-x-full");
+        img.src = "/assets/images/icons/menu.svg";
+      } else {
+        navBar.classList.add("left-0");
+        navBar.classList.remove("-translate-x-full");
+        img.src = "/assets/images/icons/x.svg";
+      }
+    });
+    loginBtn.addEventListener("click", () => {
+      console.log("click login btn");
+      window.location.href = "https://cot.asia/iao";
+    });
+  </script>
+</html>

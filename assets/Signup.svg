@@ -1,0 +1,14 @@
+<svg id="Signup" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="140" height="40" viewBox="0 0 140 40">
+  <defs>
+    <linearGradient id="linear-gradient" y1="-0.073" x2="1.051" y2="1.124" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#de357a"/>
+      <stop offset="0.164" stop-color="#df3a7d"/>
+      <stop offset="0.366" stop-color="#e24988"/>
+      <stop offset="0.59" stop-color="#e8629b"/>
+      <stop offset="0.826" stop-color="#f085b4"/>
+      <stop offset="1" stop-color="#f7a4cb"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_78539" data-name="Rectangle 78539" width="140" height="40" rx="5" fill="url(#linear-gradient)"/>
+  <text id="Login_Signup" data-name="Login/Signup" transform="translate(21 25)" fill="#fff" font-size="14" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Login/Signup</tspan></text>
+</svg>

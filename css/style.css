@@ -1,0 +1,54 @@
+/* styles.css */
+@font-face {
+  font-family: "Montserrat";
+  src: url("../assets/fonts/static/Montserrat-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../assets/fonts/static/Montserrat-Bold.ttf") format("truetype");
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../assets/fonts/static/Montserrat-ExtraBold.ttf") format("truetype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nasalization";
+  src: url("../assets/fonts/Nasalization.otf") format("opentype");
+  font-weight: 900; /* Black */
+  font-style: normal;
+}
+
+/* Apply the font globally */
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #130d35;
+}
+
+/* Example usage of the bold font */
+h2 {
+  font-family: "Nasalization", sans-serif;
+  font-weight: 900;
+}
+.gradient-box {
+
+  /* background: linear-gradient(
+    to right,
+    #f6a0c7, 
+    #df3b7e, 
+    #f6a0c7 
+  ); */
+  background: radial-gradient(
+    circle,
+    #de4585 80%,        /* Center is vivid pink covering 90% */
+    #f6a0c7 100%   /* Outer 10% is light pink */
+  );
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
