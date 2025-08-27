@@ -32,13 +32,17 @@ body {
   background-color: #130d35;
 }
 
-/* Example usage of the bold font */
+/* example usage of the bold font */
 h2 {
   font-family: "Nasalization", sans-serif;
   font-weight: 900;
 }
-.gradient-box {
 
+.title-shadow {
+  text-shadow: 0 3px 4px rgba(0, 0, 0, 0.8);
+}
+
+.gradient-box {
   /* background: linear-gradient(
     to right,
     #f6a0c7, 
@@ -47,8 +51,8 @@ h2 {
   ); */
   background: radial-gradient(
     circle,
-    #de4585 80%,        /* Center is vivid pink covering 90% */
-    #f6a0c7 100%   /* Outer 10% is light pink */
+    #de4585 80%,
+    /* Center is vivid pink covering 90% */ #f6a0c7 100% /* Outer 10% is light pink */
   );
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
